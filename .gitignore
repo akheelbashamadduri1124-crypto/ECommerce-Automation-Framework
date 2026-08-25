@@ -1,0 +1,32 @@
+# Maven
+target/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Logs
+logs/
+*.log
+
+# Test screenshots
+screenshots/
+
+# TestNG / reports
+test-output/
+reports/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
+
+~$*.xlsx
