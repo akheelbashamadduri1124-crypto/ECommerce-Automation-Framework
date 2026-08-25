@@ -15,7 +15,7 @@ screenshots/
 
 # TestNG / reports
 test-output/
-reports/
+
 
 # OS files
 .DS_Store
