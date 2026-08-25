@@ -46,7 +46,7 @@ The framework is designed using reusable components and supports maintainable, s
 - Headless execution
 - Parallel execution
 - Maven test execution
-
+  
 ## 📁 Project Structure
 
 ```text
@@ -78,28 +78,34 @@ ECommerceAutomationFramework
     ├── config
     ├── testdata
     └── log4j2.xml
-
+```
 ## 🧪 Test Suites
 
 ### Smoke Testing
+```bash
 mvn clean test -DsuiteXmlFile=testng-smoke.xml
 
+```
 ##Regression Testing
+```bash
 mvn clean test -DsuiteXmlFile=testng-regression.xml
 
 ##Cross-Browser Execution
-
+```
 **Chrome**
--->mvn clean test -Dbrowser=chrome -Dheadless=true
-
+```bash
+mvn clean test -Dbrowser=chrome -Dheadless=true
+```
 **Edge**
--->mvn clean test -Dbrowser=edge -Dheadless=true
-
+```bash
+mvn clean test -Dbrowser=edge -Dheadless=true
+```
 **Firefox**
--->mvn clean test -Dbrowser=firefox -Dheadless=true
-
+```bash
+mvn clean test -Dbrowser=firefox -Dheadless=true
+```
 ## 📊 Reporting
-
+```
 - ExtentReports for HTML test reporting
 - Log4j2 for execution logging
 - Automatic screenshots on test failure
